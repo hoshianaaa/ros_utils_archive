@@ -6,7 +6,7 @@
         <arg name="camera_name" value="videofile" />
         <!-- full path to the video file -->
         <!-- wget http://techslides.com/demos/sample-videos/small.mp4 -O /tmp/small.mp4 -->
-        <arg name="video_stream_provider" value="/home/dev/noken/noken_ex1.mp4" />
+        <arg name="video_stream_provider" value="/home/dev/noken/noken_ex2.mp4" />
         <!-- set camera fps to (video files not affected) -->
         <!-- <arg name="set_camera_fps" value="30"/> -->
         <!-- set buffer queue size of frame capturing to -->
@@ -32,7 +32,7 @@
         <arg name="visualize" value="false" />
    </include>
 
-   <node pkg="rosbag" type="play" name="rosbag" args="/home/dev/noken/2023-03-03-08-50-09.bag -s 56" output="screen"/>
+   <node pkg="rosbag" type="play" name="rosbag" args="/home/dev/noken/2023-03-03-08-59-42.bag -s 56" output="screen"/>
    <!--node pkg="rviz" type="rviz" name="rviz" args="-d $(find ros_utils)/rviz/rviz.rviz"/-->
 
 </launch>
