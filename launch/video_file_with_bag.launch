@@ -33,6 +33,6 @@
    </include>
 
    <node pkg="rosbag" type="play" name="rosbag" args="/home/dev/noken/2023-03-03-08-50-09.bag -s 56" output="screen"/>
-   <node pkg="rviz" type="rviz" name="rviz" args="-d $(find ros_utils)/rviz/rviz.rviz"/>
+   <!--node pkg="rviz" type="rviz" name="rviz" args="-d $(find ros_utils)/rviz/rviz.rviz"/-->
 
 </launch>
