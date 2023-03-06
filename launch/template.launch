@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <!--include file="$(find ros_utils)/launch/xxx.launch"/-->
+  <!--node pkg="ros_utils" type ="xxx" name="xxx" output="log"-->
+    <!--param name="xxx" value="xxx"/-->
+  <!--/node-->
+  <!--node pkg="ros_utils" type ="xxx" name="xxx" output="screen"-->
+    <!--param name="xxx" value="xxx"/-->
+  <!--/node-->
+
+  <!--node pkg="rviz" type="rviz" name="rviz" args="-d $(find PACKAGE_NAME)/config/SETTING.rviz"/-->
+
+</launch>
+
+
